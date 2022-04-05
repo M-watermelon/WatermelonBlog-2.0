@@ -12,14 +12,18 @@ h2{
 }
 p {
     font-family: Helvetica, Arial, Oswald, sans-serif;
+    position: absolute;
+    left:30%;
+    transform: translate(-50%, -50%);
     
   }
 .hero-image{
     align-items: center;
     background-image: url('watermelon_4x.png');
-    height: 100vh;
-    width: 100vw;
+    height: 80vh;
+    width: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -30,10 +34,25 @@ p {
     text-align: left;
     position: absolute;
     top: 50%;
-    left:30%;
+    left:35%;
     transform: translate(-50%, -50%);
     color: white;
 }
+
+#page-container {
+    position: relative;
+    min-height: 90vh;
+  }
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
 
 /*background-color: #ccffeb;
 padding: 100 px;*/
