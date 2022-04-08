@@ -13,9 +13,9 @@ h2{
 }
 p {
     font-family: Helvetica, Arial, Oswald, sans-serif;
-    position: absolute;
+    /*position: absolute;
     left:30%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
     
   }
 .hero-image{
