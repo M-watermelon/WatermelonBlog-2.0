@@ -13,9 +13,6 @@ h2{
 }
 p {
     font-family: Helvetica, Arial, Oswald, sans-serif;
-    /*position: absolute;
-    left:30%;
-    transform: translate(-50%, -50%);*/
     
   }
 .hero-image{
@@ -28,7 +25,17 @@ p {
     background-size: cover;
     position: relative;
 }
-
+.hero{
+  opacity: 50%;
+   background-color: rgb(103, 69, 148);
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 .hero-text{
     font-family: Helvetica, Arial, Oswald, sans-serif;
@@ -43,6 +50,7 @@ p {
 #page-container {
     position: relative;
     min-height: 100vh;
+    padding: 10px;
   }
   #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
